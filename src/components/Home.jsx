@@ -11,6 +11,7 @@ import eve2 from "../assets/asset 9.jpeg"
 import eve3 from "../assets/asset 10.jpeg"
 import eve4 from "../assets/asset 11.jpeg"
 import '../App.css'
+import Footer from "./Footer";
 
 const Home = () => {
     return (
@@ -130,9 +131,8 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-
-
             </div>
+            <Footer/>
         </>
     );
 };

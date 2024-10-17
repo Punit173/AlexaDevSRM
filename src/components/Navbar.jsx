@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MenuIcon, XIcon } from '@heroicons/react/outline'; // Assuming you are using Heroicons for the hamburger icon
+import { MenuIcon, XIcon } from '@heroicons/react/outline'; 
 import { NavLink } from 'react-router-dom'; // Import NavLink
 
 const Navbar = () => {
@@ -50,7 +50,7 @@ const Navbar = () => {
                         </NavLink>
                     </ul>
                     <a href="https://www.alexadevsrm.org/apply">
-                        <button className='mt-4 md:mt-0 px-8 py-2 translate-y-1 hover:translate-y-0 transition-transform duration-200 rounded-full bg-gradient-to-b from-[#31B553] to-[#0AA294] text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200'>
+                        <button className='mt-4 md:mt-0 px-8 py-2 translate-y-1 hover:translate-y-0 rounded-full bg-gradient-to-b from-[#31B553] to-[#0AA294] text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200'>
                             Apply Now
                         </button>
                     </a>

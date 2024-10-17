@@ -1,9 +1,10 @@
 import React from 'react'
+import Footer from './Footer'
 
 const Ourteam = () => {
   return (
     <div>
-      Our Team
+      <Footer/>
     </div>
   )
 }
